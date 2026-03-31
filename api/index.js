@@ -1,8 +1,7 @@
-const express = require("express");
-const path = require("path");
-const serverless = require("serverless-http");
-const fetch = require("node-fetch");
-
+import express from "express";
+import path from "path";
+import serverless from "serverless-http";
+import fetch from "node-fetch";
 const app = express();
 
 // Middleware
